@@ -1,6 +1,10 @@
 ## Временная база данных для тестов
 
+<<<<<<< HEAD
 - 1 - Запустить PostgreSQL для тестов
+=======
+1. Запустить PostgreSQL для тестов
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```shell
 docker run -d \
   --name test-db \
@@ -8,6 +12,7 @@ docker run -d \
   -e POSTGRES_PASSWORD=test123 \
   postgres:alpine
 ```
+<<<<<<< HEAD
 - 2 - Зайти в эту БД:
 ```shell
 docker exec -it test-db psql -U postgres
@@ -26,6 +31,9 @@ SELECT version();
 exit
 ```
 - 4 - После тестов удалить
+=======
+2. После тестов удалить
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```shell
 docker stop test-db && docker rm test-db
 ```

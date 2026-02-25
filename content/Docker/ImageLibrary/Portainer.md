@@ -1,5 +1,19 @@
 ## Portainer
 
+<<<<<<< HEAD
+=======
+### Базовый вариант (без сохранения данных)
+```shell
+docker run -d \
+  --name portainer \
+  -p 9000:9000 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  portainer/portainer
+```
+
+[Подключиться через браузер по http://localhost:9000/](http://localhost:9000/)
+
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ### Вариант с томами (с сохранением данных)
 ```shell
 docker run -d \

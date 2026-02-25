@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Docker compose конетейнеры c PostgreSQL+pgAdmin
+=======
+## Установка и запуск контейнера PostgreSQL+pgAdmin
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 
 ### Процесс создания Dockers проекта PostgreSQL+pgAdmin
 

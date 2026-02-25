@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #### Docker compose конетейнеры с PostgresSQL
+=======
+#### Контейнер с PostgresSQL
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 
 > Показать все **docker-compose** проекты:
 > ```shell

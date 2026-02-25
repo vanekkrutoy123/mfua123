@@ -19,6 +19,10 @@
 1. [cAdvisor (мониторинг контейнеров)](/content/Docker/ImageLibrary/cAdvisor.md)
 1. [Тест скорости интернета](/content/Docker/ImageLibrary/speedtest.md)
 1. [Временная база данных для тестов](/content/Docker/ImageLibrary/temp_test-db.md)
+<<<<<<< HEAD
 1. [Файловый обменник](/content/Docker/ImageLibrary/file-server.md)
 1. [Jira](/content/Docker/ImageLibrary/Jira.md)
 1. [Pcb2gcode](/content/Docker/ImageLibrary/Pcb2gcode.md)
+=======
+1. [Файловый обменник](/content/Docker/ImageLibrary/file-server.md)
+>>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
