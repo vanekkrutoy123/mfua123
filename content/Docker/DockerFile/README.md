@@ -1,6 +1,9 @@
-<<<<<<< HEAD
-## Провекты для по работе с Dockerfile
-=======
-## Информация по работе с Dockerfile
->>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
+## Dockerfile проекты
 
+- [Привет, Docker! 🐳](/content/Docker/DockerFile/hello-world.md)
+- [Статический сайт на веб-сервере Nginx](/content/Docker/DockerFile/my-site.md)
+- [Flask+Python (мини-проект)](/content/Docker/DockerFile/Flask+Python_Mini.md)
+- [Приложение на C# (.NET) с публикацией](/content/Docker/DockerFile/dotNet.md)
+- [Консольное приложение на C++](/content/Docker/DockerFile/cpp.md)
+- [Консольное приложение на C++ и FTXUI](/content/Docker/DockerFile/ftxui.md)
+- [Wow - консольное псевдографисеское приложение на C++ и FTXUI](/content/Docker/DockerFile/ftxui_wow.md)

@@ -1,9 +1,13 @@
-<<<<<<< HEAD
 ## Практическая работа на примере готового образа Nginx в Docker
 
 > **Nginx** - это легкий и небольшой веб-сервер
 
-### Проверить Docker
+> Никогда в разработке не используйте русские имена файлов и каталогов!
+> Никогда в разработке не используйте пробелы и спец.символы в именах файлов и каталогов!
+
+## Этапы
+
+### 1. Проверить Docker
 
 Получить версию установленного у вас Docker
 ```shell
@@ -16,7 +20,7 @@ docker version
 
 [Ссылка на Docker Hub](https://hub.docker.com/)
 
-### Подготовка Docker (чтобы начать работать с "чистого листа")
+### 2. Подготовка Docker (чтобы начать работать с "чистого листа")
 
 1. Остановить все запущенные контейнеры
 1. Удалить все остановленные контейнеры
@@ -60,7 +64,7 @@ docker rmi $(docker images -q)
 
 > Удалять нужно только учебные контейнеры и образы, т.к. есть риск потерять важные данные, которые могут содержаться в контейнерах!
 
-### Получение готового образа Nginx
+### 3. Получение готового образа Nginx
 
 1. Поиск и получение готового образа на Docker Hub
 1. Создание и запуск контейнера из полученного образа
@@ -74,10 +78,14 @@ docker search nginx
 
 ![Скрин вывода поиска по слову nginx](img/docker_screen.png)
 
+Так же готовый образ можно искать в **Docker Desktop**
+
 Получить, создать и запустить Nginx
 ```shell
 docker run -d --name my-nginx -p 80:80 nginx
 ```
+
+`docker run` объединяет команды `docker pull`, `docker create` и `docker start`
 
 Если запуск контейнера не удался, то проверьте уже созданные контейнеры с таким именем у себя
 ```shell
@@ -90,6 +98,19 @@ docker ps -a
 ```shell
 docker images
 ```
+
+Показать работающий Nginx
+
+Способ 1
+```shell
+curl http://localhost/
+```
+
+![Скрин вывода curl](img/curl_nginx.png)
+
+Способ 2 - [открыть http://localhost/ адрес в браузере](http://localhost/)
+
+![Скрин nginx в браузере](img/web_nginx.png)
 
 Если нужно только получить готовый образ, без создания и запуска контейнера, то
 ```shell
@@ -105,6 +126,9 @@ docker inspect nginx
 ```shell
 docker stop my-nginx
 ```
+
+Проверьте остановленное приложение в браузере по тому же адресу, обновив страницу по `Ctrl+R` или `F5`
+
 Перезапустить контейнер по имени
 ```shell
 docker restart my-nginx
@@ -148,7 +172,7 @@ docker rmi 062a783918fb
 
 ![Скрин состояния docker images](img/rm_image.png)
 
-### Проверить работу контейнера
+### 4. Проверить работу контейнера
 
 Можно снова установить и запустить Nginx (если его удаляли ранее)
 ```shell
@@ -174,20 +198,7 @@ docker ps -a
 
 > Из одного образа можно получить несколько контейнеров!
 
-Показать работающий Nginx
-
-Способ 1
-```shell
-curl http://localhost/
-```
-
-![Скрин вывода curl](img/curl_nginx.png)
-
-Способ 2 - [открыть http://localhost/ адрес в браузере](http://localhost/)
-
-![Скрин nginx в браузере](img/web_nginx.png)
-
-### Управление контейнером
+### 5. Управление контейнером
 
 #### Мониторинг контейнеров
 
@@ -224,63 +235,23 @@ docker logs -f my-nginx
 
 ![](img/logs.png)
 
-### Управление контейнером
+#### Управление контейнером
 
 Остановить контейнер
-=======
-## Веб-сервер Nginx
-
-Скачать и запустить Nginx
-```shell
-docker run -d --name my-nginx -p 80:80 nginx:alpine
-```
-
-Проверить работоспособность контейнера командой:
-```shell
-curl http://localhost
-```
-
-[Или запустить в браузере: http://localhost](http://localhost)
-
-Чтобы создать и запустить ещё один контейнер, надо указать другое имя и порт, например:
-```shell
-docker run -d --name nginx-copy -p 81:80 nginx:alpine
-```
-
-[Или запустить в браузере: http://localhost:81](http://localhost:81)
-
-### Полезные команды для работы
-
-#### Посмотреть запущенные контейнеры
-```shell
-docker ps
-```
-
-#### Остановить контейнер
->>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```shell
 docker stop my-nginx
 ```
 
-<<<<<<< HEAD
 Снова запустить контейнер
-=======
-#### Запустить остановленный
->>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```shell
 docker start my-nginx
 ```
 
-<<<<<<< HEAD
 Перезапустить контейнер
-=======
-#### Перезапустить контейнер
->>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```shell
 docker restart my-nginx
 ```
 
-<<<<<<< HEAD
 Зайти в контейнер
 ```shell
 docker exec -it my-nginx /bin/bash
@@ -324,7 +295,7 @@ fastfetch
 
 Можно установить ещё несколько приложений внутри Docker-контейнера:
 ```shell
-apt update && apt install -y fastfetch htop cmatrix hollywood mc micro
+apt update && apt install -y fastfetch htop inxi cmatrix hollywood caca-utils mc micro
 ```
 > На все вопросы ответьте `1` и `Enter`
 
@@ -348,19 +319,32 @@ cmatrix
 ```shell
 hollywood
 ```
-![Скрин вывода hollywood]()
+![Скрин вывода hollywood]()bash
 
 > Выйти из `hollywood` можно по `Ctrl-C`
 
 Выйти из контейнера можно командой `exit`
 
-Отредактировать текст страницы приветствия Nginx (Находится в разработке!)
+Отредактировать текст страницы приветствия **Nginx** (Находится в разработке!)
 
 Открыть файл `index.html` для редактирования содержимого
 ```shell
-micro /usr/local/apache2/htdocs/index.html
+micro /usr/share/nginx/html/index.html
 ```
-
+Файл index.html
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Приветственная страница index.html</title>
+</head>
+<body>
+    <h1>Привет из контейнера index.html! 🐳</h1>
+    <p>Здесь может быть любой русский текст.</p>
+</body>
+</html>
+```
 отредайтируйте и сохраните по `Ctrl+S` и выйти из режима редактирования по `Ctrl+Q`
 
 [Проверить изменения на открытой странице >>](http://localhost/)
@@ -380,80 +364,4 @@ docker container prune $(docker ps -q)
 Удалить все образы
 ```shell
 docker rmi $(docker images -q)
-=======
-#### Посмотреть логи
-```shell
-docker logs my-nginx
-```
-```shell
-docker logs -f my-nginx  # в реальном времени
-```
-
-> Чтобы выйти из режима просмотра логов, нужно выполнить `Ctrl+C`
-
-#### Войти в контейнер
-```shell
-docker exec -it my-nginx /bin/sh
-```
-
-#### Получить ин-фу по ОС контейнера
-```shell
-cat /etc/os-release
-```
-
-```shell
-top
-```
-
-> Чтобы выйти из top, нужно выполнить `Q`
-
-> т.е. это скорей всео какой-то Linux, то можно попробовать повыполнять разные команды из Linux
-
-Установить fastfetch (например)
-```shell
-apt install fastfetch
-```
-после установки выполнить команду:
-```shell
-fastfetch
-```
-
-> Таким образом вы получаете в контейнере маленькую копию Linux, с которым можно работать.
-
-Чтобы выйти из контейнера, следует выполнить:
-```shell
-exit
-```
-
-#### Скопировать файл из контейнера
-```shell
-docker cp my-nginx:/etc/nginx/nginx.conf ./nginx.conf
-```
-
-#### Мониторинг контейнеров
-```shell
-docker stats
-```
-
-> Вывод ин-фы мониторинга обновляется каждые 2 сек.!
-
-Выйти из мониторинга по `Ctrl+C`
-
-#### Мониторинг без постоянного обновления (однократный вывод)
-```shell
-docker stats --no-stream
-```
-```shell
-docker stats $(docker ps -q)
-```
-
-#### Удалить контейнер
-```shell
-docker rm my-nginx
-```
-
-#### Удалить контейнер и его volume (если есть)
-```shell
-docker rm -v my-nginx
->>>>>>> 1508656d9aa5607f68f246829f6818b69e9ca4ed
 ```
