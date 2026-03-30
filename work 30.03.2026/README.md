@@ -752,7 +752,6 @@ docker run -d \
   halverneus/static-file-server:latest
 ```
 
-<img width="677" height="243" alt="image" src="https://github.com/user-attachments/assets/7571a6d1-2b58-434f-ab65-9212ce54e521" />
 
 ## 2. [Откройте: http://localhost:8084](http://localhost:8084)
 
