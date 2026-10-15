@@ -41,6 +41,6 @@ docker compose down -v
 ### 1. Мастер установки Joomla
 ![Мастер установки](screenshots/01-install-master.png)
 
-### 3. Установщик — настройка БД
+### 2. Установщик — настройка БД
 ![Настройка БД](screenshots/03-install-db.png)
 
