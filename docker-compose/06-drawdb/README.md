@@ -36,7 +36,7 @@ docker compose down -v
 
 
 ### 1. Логи — Vite ready
-![Логи](screenshots/01-logs.png)
+![Логи](screenshots/01-logs.jpg)
 
 ### 2. Интерфейс drawDB
 ![drawDB UI](screenshots/02-drawdb-ui.png)

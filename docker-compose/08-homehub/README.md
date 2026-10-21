@@ -39,10 +39,10 @@ docker compose down --rmi all -v
 
 
 ### 1. Запуск проекта
-![docker compose up](screenshots/01-up.png)
+![docker compose up](screenshots/01-up.jpg)
 
 ### 2. Логи
-![Логи](screenshots/02-logs.png)
+![Логи](screenshots/02-logs.jpg)
 
 ### 3. Дашборд HomeHub
 ![Дашборд](screenshots/03-dashboard.png)

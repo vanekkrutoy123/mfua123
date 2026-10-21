@@ -42,10 +42,10 @@ docker compose down -v
 ## Скриншоты
 
 ### 1. Логи PostgreSQL
-![Логи](screenshots/01-logs.png)
+![Логи](screenshots/01-logs.jpg)
 
 ### 2. Попытка подключения / промежуточный шаг
-![Промежуточный шаг](screenshots/02-psql-attempt.png)
+![Промежуточный шаг](screenshots/02-psql-attempt.jpg)
 
 ### 3. Подключение к БД и таблица `users`
 ![psql](screenshots/03-psql-users.png)

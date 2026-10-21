@@ -51,10 +51,10 @@ docker image rm ghcr.io/libredb/libredb-studio:latest
 ![docker compose config](screenshots/01-config.png)
 
 ### 2. Запуск проекта
-![docker compose up](screenshots/02-up.png)
+![docker compose up](screenshots/02-up.jpg)
 
 ### 3. Логи
-![Логи](screenshots/03-logs.png)
+![Логи](screenshots/03-logs.jpg)
 
 ### 4. Страница входа
 ![Вход](screenshots/04-login.png)

@@ -44,10 +44,10 @@ docker image rm dbeaver/cloudbeaver:latest
 
 
 ### 1. Запуск проекта
-![docker compose up](screenshots/01-up.png)
+![docker compose up](screenshots/01-up.jpg)
 
 ### 2. Логи
-![Логи](screenshots/02-logs.png)
+![Логи](screenshots/02-logs.jpg)
 
 ### 3. Создание администратора
 ![Setup wizard](screenshots/03-setup-wizard.png)
