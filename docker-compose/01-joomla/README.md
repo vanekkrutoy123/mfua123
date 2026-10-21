@@ -42,5 +42,5 @@ docker compose down -v
 ![Мастер установки](screenshots/01-install-master.png)
 
 ### 2. Установщик — настройка БД
-![Настройка БД](screenshots/03-install-db.png)
+![Настройка БД](screenshots/02-install-db.png)
 
