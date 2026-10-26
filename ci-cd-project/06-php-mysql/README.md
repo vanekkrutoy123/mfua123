@@ -76,8 +76,3 @@ docker run --rm my-php-app:latest
 
 - Actions: https://github.com/bobojonanaev2-code/my-php-app/actions
 - Все jobs — ✅
-### 8. Локальная сборка Docker-образа
-![docker build](screenshots/08-docker-build.png)
-
-### 9. Запуск контейнера
-![docker run](screenshots/09-docker-run.png)
