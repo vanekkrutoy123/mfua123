@@ -76,30 +76,6 @@ docker run --rm my-php-app:latest
 
 - Actions: https://github.com/bobojonanaev2-code/my-php-app/actions
 - Все jobs — ✅
-
-## Скриншоты
-
-### 1. Создание репозитория
-![Создание репозитория](screenshots/01-create-repo.png)
-
-### 2. Клонирование
-![git clone](screenshots/02-clone.png)
-
-### 3. Структура проекта
-![Структура](screenshots/03-structure.png)
-
-### 4. Push
-![git push](screenshots/04-push.png)
-
-### 5. Список workflow в Actions
-![Actions](screenshots/05-actions-list.png)
-
-### 6. Jobs
-![Jobs](screenshots/06-jobs.png)
-
-### 7. Вывод PHPUnit
-![PHPUnit](screenshots/07-tests-output.png)
-
 ### 8. Локальная сборка Docker-образа
 ![docker build](screenshots/08-docker-build.png)
 
