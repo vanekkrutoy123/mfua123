@@ -16,8 +16,8 @@
 | 8 | Hello Java! | [`08-HJava_PipelineCI`](08-HJava_PipelineCI) | [08-Hjava_PipelineCI](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/08-Hjava_PipelineCI) | ✅ |
 | 9 | Pipeline CI на Rust 1 | [`09-Rust_n2_Pipeline`](09-Rust_n2_Pipeline) | [09-Rust_n2_Pipeline](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/09-Rust_n2_Pipeline) | ✅ |
 | 10 | CI/CD Rust CLI → GHCR | [`10-g-ghcr_Pipeline`](10-g-ghcr_Pipeline) | [10-g-ghcr_Pipeline](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/10-g-ghcr_Pipeline) | ✅ |
-| 11-12 | CI/CD Go CLI → GHCR / Releases | [`11-12-go_ci-ghrelease`](11-12-go_ci-ghrelease) | [11-12-go_ci-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/11-12-go_ci-ghrelease) | ✅ |
-| 13 | CI/CD Python+Pylinstaller → Releases | [`13-Pylinstaller-ghrelease`](13-Pylinstaller-ghrelease) | [13-Pylinstaller-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/13-Pylinstaller-ghrelease) | ✅ |
+| 11-12 | CI/CD Go CLI → GHCR / Releases | [`11-12-go_ci-ghrelease`](11-12-go_ci-ghrelease) | [11-12-go_ci-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/11-12-go_cli-ghrelease) | ✅ |
+| 13 | CI/CD Python+Pylinstaller → Releases | [`13-Pylinstaller-ghrelease`](13-Pylinstaller-ghrelease) | [13-Pylinstaller-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/13-PyInstaller-ghrelease) | ✅ |
 | 14 | CI/CD C#/.NET → Releases | [`14-cs-ghrelease`](14-cs-ghrelease) | [14-cs-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/14-cs-ghrelease) | ✅|
 | 15 | CI/CD Go GUI → Releases | [`15-go_gui-ghrelease`](15-go_gui-ghrelease) | [15-go_gui-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/15-go_gui-ghrelease) | ✅ |
 | 16 | Hex Loader Go GUI → Releases | [`16-go_hex-ghrelease`](16-go_hex-ghrelease) | [16-go_hex-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/16-go_hex-ghrelease) | ✅ |
