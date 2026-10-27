@@ -13,7 +13,7 @@
 | 5 | Rust CLI | [`05-rust-ci/`](05-rust-ci/) | [my-rust-app](https://github.com/vanekkrutoy123/my-rust-app) | ✅ |
 | 6 | PHP + MySQL | [`06-php-mysql/`](06-php-mysql/) | [my-php-app](https://github.com/vanekkrutoy123/my-php-app-main) | ✅ |
 | 7 | C++ | [`07-CPP-pipelineCI`](07-CPP-pipelineCI) | [07-CPP-pipelineCI](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/07-CPP-pipelineCI) | ✅ |
-| 8 | Hello Java! | [`08-HJava_PipelineCI`](08-HJava_PipelineCI) | [08-HJava_PipelineCI](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/08-HJava_PipelineCI) | ✅ |
+| 8 | Hello Java! | [`08-HJava_PipelineCI`](08-HJava_PipelineCI) | [08-Hjava_PipelineCI](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/08-Hjava_PipelineCI) | ✅ |
 | 9 | Pipeline CI на Rust 1 | [`09-Rust_n2_Pipeline`](09-Rust_n2_Pipeline) | [09-Rust_n2_Pipeline](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/09-Rust_n2_Pipeline) | ✅ |
 | 10 | CI/CD Rust CLI → GHCR | [`10-g-ghcr_Pipeline`](10-g-ghcr_Pipeline) | [10-g-ghcr_Pipeline](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/10-g-ghcr_Pipeline) | ✅ |
 | 11-12 | CI/CD Go CLI → GHCR / Releases | [`11-12-go_ci-ghrelease`](11-12-go_ci-ghrelease) | [11-12-go_ci-ghrelease](https://github.com/vanekkrutoy123/mfua123/tree/main/ci-cd-project/11-12-go_ci-ghrelease) | ✅ |
