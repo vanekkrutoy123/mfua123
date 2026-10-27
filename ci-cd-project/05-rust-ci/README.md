@@ -5,7 +5,7 @@ CI-пайплайн для Rust-приложения: форматировани
 ## Задание
 
 Источник: [content/DevOps/CI_CD/Pipelines/Rust_CI_1.md](https://gitflic.ru/project/rurewa/mfua/blob?file=content/DevOps/CI_CD/Pipelines/Rust_CI_1.md&branch=master)
-Отдельный репозиторий: [bobojonanaev2-code/my-rust-app](https://github.com/bobojonanaev2-code/my-rust-app)
+
 
 ## Что сделано
 
@@ -55,7 +55,6 @@ docker run --rm my-rust-app:latest
 
 ## Результат
 
-- Actions: https://github.com/bobojonanaev2-code/my-rust-app/actions
 - Все jobs — ✅
 
 
