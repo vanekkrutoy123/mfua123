@@ -59,7 +59,7 @@ docker volume prune -f
 
 **Скриншот 1 — подготовка и очистка Docker:**
 
-![01 — Очистка Docker-окружения](screenshots/01-cleanup.png)
+![01 — Очистка Docker-окружения](screenshots/01-clean-up.png)
 
 ### 2. Настройка и запуск MySQL
 
@@ -95,7 +95,7 @@ docker run --name my-mysql \
 
 **Скриншот 2 — запуск MySQL-контейнера:**
 
-![02 — Запуск контейнера MySQL](screenshots/02-run.png)
+![02 — Запуск контейнера MySQL](screenshots/02-mysql-cont.png)
 
 ### 3. Проверка работы контейнера
 
@@ -107,7 +107,7 @@ docker ps
 
 **Скриншот 3 — состояние контейнера:**
 
-![03 — Проверка контейнера командой docker ps](screenshots/03-ps.png)
+![03 — Проверка контейнера командой docker ps](screenshots/03-cont.png)
 
 ### 4. Подключение к MySQL и просмотр баз данных
 
